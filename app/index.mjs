@@ -4,7 +4,6 @@ import { Server } from "http";
 import io from "socket.io";
 import redis from "redis";
 import adapter from "socket.io-redis";
-import sharedSession from "express-socket.io-session";
 import {ioServer} from "./socket/index.mjs"
 
 

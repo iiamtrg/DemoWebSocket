@@ -6,7 +6,6 @@ const router = express.Router();
 router.get('/', isAuthenticated, async (req, res, next) => {
     try {
         const rooms = await getAllRooms();
-        console.log(util.inspect(rooms, {showHidden: false, depth: null}))
         res.render('chat', {
             host: "http://localhost:3000",
             rooms: rooms

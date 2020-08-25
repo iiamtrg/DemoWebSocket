@@ -1,4 +1,3 @@
-import GoogleStrategy from "passport-google-oauth20";
 import { User, Room, Conversation } from "../db/index.mjs";
 
 // User
