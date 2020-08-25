@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
-const dbURI = "mongodb+srv://admin:a123456@my-cluster-tjcf3.mongodb.net/mychatcatdb2?retryWrites=true&w=majority"
+const dbURI = ""
 try {
     mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true });
 } catch (error) {
